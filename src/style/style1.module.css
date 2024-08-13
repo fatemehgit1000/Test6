@@ -1,0 +1,179 @@
+/* App.css */
+.app-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Students.css */
+  .students-container {
+    padding: 20px;
+  }
+  
+  .student-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .student-form input {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .student-form button {
+    flex-basis: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+  .course-selection-module {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .courses-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .available-courses,
+  .selected-courses {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .course-item:last-child {
+    border-bottom: none;
+  }
+  
+  .course-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .course-credits {
+    color: #666;
+  }
+  
+  .select-btn,
+  .deselect-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .deselect-btn {
+    background-color: #dc3545;
+  }
+  
+  .select-btn:hover,
+  .deselect-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .deselect-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .total-credits {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+
+  
+  @media (max-width: 768px) {
+    .student-form input {
+      flex-basis: 100%;
+    }
+  }
+
+
+
+  
+
